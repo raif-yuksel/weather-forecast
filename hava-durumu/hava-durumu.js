@@ -126,7 +126,6 @@ let weather = {
 
         }
 
-        // modifications common to all 4 days
         document.querySelector(".City").innerText = cityname + ", " + country;
         document.querySelector(".One img").src = "https://openweathermap.org/img/wn/" + icon1 + ".png";
         document.querySelector("#d1").innerText = day1.substr(0, 3);
